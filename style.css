@@ -4,11 +4,113 @@
 }
 body{
 	background-color: #f9f9f9;
+	font-family: Tahoma, Arial, sans-serif;
 }
 .wrapper{
-	background-color: black;
+	background-color: #ffffff;
 	margin: 0 auto;
-	width: 1062px;
+	width: 970px;
 	height: 945px;
+	padding: 0 46px 60px;
 }
-.
+.header{
+	padding-top: 50px;
+	margin-bottom: 40px; 
+}
+.menu{
+position: relative;
+overflow: hidden;
+margin-top: 40px; 
+background: #5d5d5d; 
+background: -moz-linear-gradient(top,  #5d5d5d 0%, #454444 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #5d5d5d 0%,#454444 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #5d5d5d 0%,#454444 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5d5d5d', endColorstr='#454444',GradientType=0 ); /* IE6-9 */
+}
+.menu li{
+	float:left; 
+	list-style: none;
+}
+.menu a {
+color: white;
+line-height: 40px;
+display: block;
+text-decoration: none;
+padding: 0 40px;
+font-size: 15px; 
+}
+.menu a:hover{
+background: #4a4a4a; /* Old browsers */
+background: -moz-linear-gradient(top, #4a4a4a 0%, #2f2f2f 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #4a4a4a 0%,#2f2f2f 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #4a4a4a 0%,#2f2f2f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.content{
+	position: relative;
+	overflow: hidden;
+}
+.content-img {
+float:right;
+width: 670px;
+border:1px solid #c8c8c8;
+text-align: center;
+padding: 40px 0;	
+}
+.content-text{
+float:right;
+width: 610px;
+padding:40px  0 20px 60px ;
+}
+.sidebar{
+float:left;
+width: 240px;
+
+border: 1px solid #c8c8c8;
+}
+.sidebar li{
+list-style: none;
+border-top: 1px solid #c8c8c8;
+}
+.sidebar li:first-child{
+	border: none;
+}
+.sidebar a{
+	padding-left: 20px; 
+	line-height: 40px;
+	color: #7a7878;
+	text-decoration: none;
+	display: block;
+}
+.sidebar a:hover{
+	background: #f9f9f9;
+	color:#2c2c2c;
+	padding-left: 35px; 
+}	
+
+.footer{
+	padding: 50px 0;
+}
+.footer-menu{
+	position: relative;
+	overflow: hidden;	
+	background-color: #e1e1e1;
+
+}
+.footer-menu li{
+list-style: none;
+float: left;
+line-height: 40px;
+
+}
+.footer-menu a{
+color: black;
+display: block;
+text-decoration: none;
+padding: 0 50px;
+font-size: 13px; 
+line-height: 40px;
+
+}
+.footer-menu a:hover{
+	text-decoration: underline;
+}
